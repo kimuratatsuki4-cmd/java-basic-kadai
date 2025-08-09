@@ -6,6 +6,7 @@ public class Car_Chapter15 {
 	
 	public void changeGear(int afterGear) {
 		// TODO 自動生成されたメソッド・スタブ
+		gear = afterGear;
 		switch (afterGear) {
 		case 1:
 			speed = 10;
@@ -27,11 +28,12 @@ public class Car_Chapter15 {
 			speed = 10;
 			break;
 		}
+		System.out.println("ギア1から"+ afterGear + "に切り替えました");
 		
 
 	}
 	public void run() {
-		System.out.println(speed);
+		System.out.println("速度は時速"+ speed + "kmです");
 		
 	}
 	
