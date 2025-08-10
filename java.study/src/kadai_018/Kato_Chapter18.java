@@ -1,7 +1,9 @@
+package kadai_018;
+
 public abstract class Kato_Chapter18 {
-    public String familyName="加藤";
+    public String familyName = "加藤";
     public String givenName;
-    public String address="東京都中野区〇×";
+    public String address = "東京都中野区〇×";
 
     // 共有の紹介を出力する
     public void commonIntroduce() {
@@ -9,10 +11,7 @@ public abstract class Kato_Chapter18 {
     }
 
     // 個別の紹介を出力する
-    public abstract void eachIntroduce() {
-        // 各クラスで実装される
-        // ここでは何もしない
-    }
+    public abstract void eachIntroduce();
 
     // 紹介を実行するメソッド
     public void execIntroduce() {

@@ -2,3 +2,5 @@ java.study/.classpath
 java.study/.project
 java.study/.settings/org.eclipse.core.resources.prefs
 java.study/.settings/org.eclipse.jdt.core.prefs
+java.study/bin/
+java.study/target/
