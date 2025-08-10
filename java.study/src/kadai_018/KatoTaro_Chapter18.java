@@ -9,7 +9,6 @@ public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 
     @Override
     public void eachIntroduce() {
-        System.out.println("名前は" + familyName + givenName + "です");
         System.out.println("私はJavaが得意です");
     }
 }

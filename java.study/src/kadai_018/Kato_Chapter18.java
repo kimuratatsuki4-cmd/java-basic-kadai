@@ -7,7 +7,8 @@ public abstract class Kato_Chapter18 {
 
     // 共有の紹介を出力する
     public void commonIntroduce() {
-        System.out.println("住所は" + address + "です。");
+        System.out.println("名前は" + familyName + givenName + "です");
+        System.out.println("住所は" + address + "です");
     }
 
     // 個別の紹介を出力する
@@ -15,8 +16,10 @@ public abstract class Kato_Chapter18 {
 
     // 紹介を実行するメソッド
     public void execIntroduce() {
-        eachIntroduce();
         commonIntroduce();
+        eachIntroduce();
+        // 改行分を追記
+        System.out.println();
     }
 
 }
